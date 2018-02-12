@@ -22,7 +22,7 @@ from en to cn or cn to en, and shows a buffer with available translations of the
 #### FAQ
 
 Find load path:
-"C+x b"(switch-to-buffer)
+"\C-x\ \b"(switch-to-buffer)
 Display buffer BUFFER-OR-NAME in the selected window.
 Select "*scratch*" buffer.
 Insert lisp expression
@@ -30,5 +30,5 @@ Insert lisp expression
 (print load-path)
 
 as you type expression into the buffer followed 
-by "C-j" (eval-print-last-sexp) after (print load-path) expression, 
+by "\C-j\" (eval-print-last-sexp) after (print load-path) expression, 
 the buffer records the load-path value;
