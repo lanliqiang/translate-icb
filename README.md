@@ -16,9 +16,8 @@ load path, add the following lines to your `.emacs` file:
 
 The command (global-set-key "\C-c\ \C-f" 'translate-icb) of library
 set the binding of key ("\C-c\ \C-f") to 'translate-icb' function.
-Invoking the function `translate-icb` to translate from en to cn 
-or cn to en, and shows a buffer with available translations of the text. 
-Invoking the function `translate-at` translates the word at point.
+Invoking the function `translate-icb` to translate the word at point 
+from en to cn or cn to en, and shows a buffer with available translations of the text. 
 
 #### FAQ
 
